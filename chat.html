@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Whatsapp Chat Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" href="index.html"><img src="images/edit.jpg" alt="chat here logo" style="width: 50px;">ChatHere</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="chat.html">Chats <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="profile.html">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="notifications.html">Notifications</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+                      <!-- first column -->
+
+ <div class="container-fluid">
+   <div class="row main-row">
+     <div class="col-xs-12 col-sm-12 col-md-4 side-chat-list">
+            <div class="row heading">
+              <div class="col-auto heading-profile">
+                     <img src="images/profile.png" alt="profile-img" class="rounded-circle images">
+              </div>
+              <div class="col heading-message">
+                 <i class="material-icons md-36 md-dark float-right">camera</i>
+              </div>
+              <div class="col heading-message">
+                <i class="material-icons md-36 md-dark float-right">speaker_notes</i>
+              </div>
+              <div class="col heading-message">
+                <i class="material-icons md-36 float-right dropdown" type="button" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">more_vert</i>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+               </div>
+              </div>
+           </div>
+
+          <div class="row heading" style="background: #dcdedf;">
+            <div class="col-xs-4  heading-profile">
+              <img src="images/bell.png" alt="bell" class="rounded-circle images">
+            </div>
+            <div class="col-xs-8 heading-message">
+               Click <a href="">here</a> to turn on the notifications
+            </div>
+          </div>
+          
+       
+         <div class="row sidebar">
+
+                   <!-- first contact -->
+
+        
+                   <!-- second contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/chelli.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          
+          <span>Pranathi</span>
+          <p class="card-text"><small class="text-muted">Hey Pranathi!!</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">11.00</small>
+        </div>
+          </div>
+
+                           <!-- third contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/sruthi.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          <span>Sruthi</span>
+          <p class="card-text"><small class="text-muted">When are you returning??</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">Yesterday</small>
+        </div>
+          </div>
+
+                           <!-- fourth contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/sachin.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          <span>Sachin</span>
+          <p class="card-text"><small class="text-muted">Bro!!! let's catch up this weekend</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">11.00</small>
+        </div>
+          </div>
+
+                           <!-- fifth contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/siblings.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          <span>Loki</span>
+          <p class="card-text"><small class="text-muted">I'm tired</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">12.20</small>
+        </div>
+          </div>
+
+                           <!-- sixth contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/s.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          <span>Su</span>
+          <p class="card-text"><small class="text-muted">It's an early morning</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">5.30</small>
+        </div>
+          </div>
+
+
+                           <!-- seventh contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/rahul.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          <span>Rahul</span>
+          <p class="card-text"><small class="text-muted">Stop worrying dude</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">10.00</small>
+        </div>
+          </div>
+
+
+                           <!-- eighth contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/goutham.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          <span>Goutham</span>
+          <p class="card-text"><small class="text-muted">Suggest me some series goutham!!!!</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">8.00</small>
+        </div>
+          </div>
+
+
+                           <!-- ninth contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/idiots.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          <span>Charan</span>
+          <p class="card-text"><small class="text-muted">Shit</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">11.00</small>
+        </div>
+          </div>
+
+
+                           <!-- tenth contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/roomies.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          <span>Viny</span>
+          <p class="card-text"><small class="text-muted">Place looks amazing ashu</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">11.00</small>
+        </div>
+          </div>
+  
+                             <!-- eleventh contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/slide1.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          <span>Nature Lover</span>
+          <p class="card-text"><small class="text-muted">Beautiful</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">1.20</small>
+        </div>
+          </div>
+
+                                 <!-- twelvth contact -->
+
+                <div class="row sidebar-body">
+        <div class="col-xs-4 sidebar-image">
+          <img src="images/dudette.jpg" alt="user image" class="rounded-circle images">
+        </div>
+
+        <div class="col-xs-8 sidebar-text">
+          <span>dudette</span>
+          <p class="card-text"><small class="text-muted">Thanks I was struggling with it</small></p>
+        </div>
+
+        <div class="col">
+          <small class="text-muted text-secondary float-right">5.00</small>
+        </div>
+          </div>
+
+
+       </div>
+      </div>
+
+                      <!-- second column -->
+
+         <div class="col-xs-12 col-sm-12 col-md-8 chat-window">
+           
+
+           <div class="row heading-right">
+             
+             <div class="col-auto heading-profile">
+               <img src="images/chelli.jpg" class="rounded-circle images" alt="myprofile image">
+             </div>
+             
+
+             <div class="col-auto heading-message">
+               <span class="">
+                 Pranathi<p class="card-text"><small class="text-muted">online</small></p>
+               </span>
+             </div>
+ 
+             <div class="col heading-message">
+                <i class="material-icons md-36 float-right dropdown" type="button" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">more_vert</i>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+                      <a class="dropdown-item" href="#"></a>
+               </div>
+              </div>
+           </div>
+
+     <div class="row chat-messages scrolling">
+        
+        <div class="row msg">
+           <div class="col-sm-12 chat-reciever">
+               <div class="reciever">
+                  <div class="chat-text">
+                     Hey Akkaa!!
+                  </div>
+                  <span class="time float-right">
+                    12:30
+                  </span>
+               </div>
+           </div>
+        </div>
+
+
+        <div class="row msg">
+           <div class="col-sm-12 chat-sender">
+               <div class="sender">
+                  <div class="chat-text">
+                     Hi Pranathi
+                  </div>
+                  <span class="time float-right">
+                    12:32
+                  </span>
+               </div>
+           </div>
+        </div>
+
+        <div class="row msg">
+           <div class="col-sm-12 chat-reciever">
+               <div class="reciever">
+                  <div class="chat-text">
+                    How are you??
+                  </div>
+                  <span class="time float-right">
+                    12:30
+                  </span>
+               </div>
+           </div>
+        </div>
+
+
+        <div class="row msg">
+           <div class="col-sm-12 chat-sender">
+               <div class="sender">
+                  <div class="chat-text">
+                     I am good...Long tym!!!
+                  </div>
+                  <span class="time float-right">
+                    12:32
+                  </span>
+               </div>
+           </div>
+        </div>
+
+
+        <div class="row msg">
+           <div class="col-sm-12 chat-reciever">
+               <div class="reciever">
+                  <div class="chat-text">
+                     It's been long time since we met....
+                  </div>
+                  <span class="time float-right">
+                    12:34
+                  </span>
+               </div>
+           </div>
+        </div>
+
+
+        <div class="row msg">
+           <div class="col-sm-12 chat-sender">
+               <div class="sender">
+                  <div class="chat-text">
+                     Yes, let's catch up this weekend???
+                  </div>
+                  <span class="time float-right">
+                    12:34
+                  </span>
+               </div>
+           </div>
+        </div>
+
+        <div class="row msg">
+           <div class="col-sm-12 chat-reciever">
+               <div class="reciever">
+                  <div class="chat-text">
+                     That's a good idea. 
+                  </div>
+                  <span class="time float-right">
+                    12:35
+                  </span>
+               </div>
+           </div>
+        </div>
+
+
+        <div class="row msg">
+           <div class="col-sm-12 chat-sender">
+               <div class="sender">
+                  <div class="chat-text">
+                     Ok then ....see you this weekend.
+                  </div>
+                  <span class="time float-right">
+                    12:37
+                  </span>
+               </div>
+           </div>
+        </div>
+
+        <div class="row msg">
+           <div class="col-sm-12 chat-reciever">
+               <div class="reciever">
+                  <div class="chat-text">
+                     See you akka....have a gud day
+                  </div>
+                  <span class="time float-right">
+                    12:40
+                  </span>
+               </div>
+           </div>
+        </div>
+
+
+        <div class="row msg">
+           <div class="col-sm-12 chat-sender">
+               <div class="sender">
+                  <div class="chat-text">
+                    have a gud day
+                  </div>
+                  <span class="time float-right">
+                    12:42
+                  </span>
+               </div>
+           </div>
+        </div>
+
+
+
+
+
+     </div>
+
+
+
+     
+    <div class="row reply">
+                 <div class="col-auto reply-smiley">
+                  <i class="material-icons md-36 md-dark" data-container="row-message" data-toggle="popover" data-placement="top">insert_emoticons</i>
+                 </div>
+                 <div class="col reply-text">
+                  <div class="input-group mb-3">
+                       <input type="text" class="form-control" placeholder="Type a message..." aria-label="Type a message..." aria-describedby="basic-addon2">
+                      <div class="input-group-append">
+                         <span class="input-group-text" id="basic-addon2">
+                          <i class="material-icons  md-dark mic-dark">mic</i>
+                         </span>
+                      </div>
+                    </div>
+                 </div>
+
+               <div class="col-auto reply-send">
+                <i class="material-icons md-dark md-36">send</i>
+               </div>
+
+
+       </div>
+
+
+      </div>
+    </div>
+   </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
